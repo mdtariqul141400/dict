@@ -19,7 +19,7 @@ app.use(cors({
     origin : "*"
 }))
 
-app.use('/static', express.static(path.join(__dirname, 'public')))
+app.use('/static', express.static(path.join(__dirname, '/front-end/build/')))
 
     
 
