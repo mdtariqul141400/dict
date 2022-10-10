@@ -17,20 +17,12 @@ app.use(cors({
     credentials: true,
     origin : "*"
 }))
-if ( process.env.NODE_ENV == "production"){
 
     app.use(express.static("front-end/build"));
 
     const path = require("path");
 
-    app.get("*", (req, res) => {
-
-        res.sendFile(path.resolve(__dirname, 'front-end', 'build', 'index.html'));
-
-    })
-
-
-}
+    
 
 // database connections 
 mongoose.connect(process.env.MONGO_CONNECTION_URL,{ useUnifiedTopology: true ,useNewUrlParser: true }).then((result) => {
@@ -60,6 +52,14 @@ app.use((err,req,res,next)=>{
     }else{
         res.send("sucsses")
     }
+})
+
+
+
+app.get("*", (req, res) => {
+
+    res.sendFile(path.resolve(__dirname, 'front-end', 'build', 'index.html'));
+
 })
 // init server 
 app.listen(PORT , () => {
