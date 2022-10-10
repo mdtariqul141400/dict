@@ -1,0 +1,205 @@
+[{
+  "_id": {
+    "$oid": "633e6961e3292d06bf2d138f"
+  },
+  "name": "web development",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665034593069"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665035443663"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e6972e3292d06bf2d1392"
+  },
+  "name": "graphic design",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665034610281"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036258183"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e6f95a21a94a0b7b2be96"
+  },
+  "name": "certificate in Application & internet Technology (CAIT)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036181791"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036181791"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e6fdfa21a94a0b7b2beb3"
+  },
+  "name": "Advanced Diploma in Computer Engineering (IADCE)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036255277"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036255277"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e7009a21a94a0b7b2beb9"
+  },
+  "name": "Advanced Office Management (Aom)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036297959"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036297959"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e703da21a94a0b7b2bebc"
+  },
+  "name": "Microsoft Office Specialist (MOS)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036349646"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036349646"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e704fa21a94a0b7b2bebf"
+  },
+  "name": "Advanced Excel ",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036367275"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036367275"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e70f9a21a94a0b7b2bec2"
+  },
+  "name": "Diploma In Computer Hardware And Networking (DCHN)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036537468"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036537468"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e71dba21a94a0b7b2bec5"
+  },
+  "name": "ISP Setup and Administration Using MicroTic",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036763476"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036763476"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e7282a21a94a0b7b2bee2"
+  },
+  "name": "CCNA",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036930492"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036930492"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e72aaa21a94a0b7b2bee5"
+  },
+  "name": "Information and Communication (ICT)",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036970326"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036970326"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e72c5a21a94a0b7b2bee8"
+  },
+  "name": "C,C++ pograming",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665036997489"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665036997489"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,103 @@
+[{
+  "_id": {
+    "$oid": "633e6a9f141e3425bf5fb46e"
+  },
+  "name": "social media",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665034911491"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665035905785"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e6aa7141e3425bf5fb471"
+  },
+  "name": "banner",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665034919287"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665035453519"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e72d4a21a94a0b7b2beeb"
+  },
+  "name": "poster ",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665037012807"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665037012807"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e72dca21a94a0b7b2beee"
+  },
+  "name": "friends ",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665037020928"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665037020928"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e72e7a21a94a0b7b2bef1"
+  },
+  "name": "collage ",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665037031661"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665037031661"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "633e7300a21a94a0b7b2befa"
+  },
+  "name": "native ",
+  "status": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1665037056965"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665037056965"
+    }
+  },
+  "__v": 0
+}]
