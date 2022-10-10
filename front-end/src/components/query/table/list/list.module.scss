@@ -1,0 +1,31 @@
+.tr {
+  &:nth-of-type(odd) {
+    background: rgba(255, 125, 125, 0.27);
+  }
+  transition: all 0.3s;
+  &:hover {
+    background: rgba(0, 0, 0, 0.46);
+  }
+  td {
+    text-align: left;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 13px;
+    .c {
+      text-align: center;
+    }
+    button {
+      padding: 3px 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.437);
+      &:hover {
+        background: rgba(255, 255, 255, 0.768);
+      }
+    }
+  }
+  .c {
+    text-align: center;
+  }
+}

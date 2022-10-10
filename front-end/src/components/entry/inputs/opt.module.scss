@@ -1,0 +1,22 @@
+.main {
+  flex: 1;
+  position: relative;
+  min-width: 300px;
+  padding: 5px 10px;
+  label {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  select,
+  input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    background: rgba(255, 255, 255, 0.704);
+    border: 1px solid red;
+    &:focus {
+      background-color: #fff;
+    }
+  }
+}

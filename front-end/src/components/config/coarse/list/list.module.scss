@@ -1,0 +1,56 @@
+.main {
+  width: 100%;
+  position: relative;
+  padding: 5px;
+  margin: 0;
+  .ac {
+    background: linear-gradient(
+      90deg,
+      rgba(77, 255, 0, 0.363),
+      rgba(161, 255, 142, 0.15)
+    );
+  }
+  .de {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 0.178),
+      rgba(255, 142, 142, 0.15)
+    );
+  }
+  .con {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 5px;
+    border-radius: 10px;
+    .text {
+      font-size: 9px;
+    }
+    .action {
+      position: relative;
+      display: flex;
+      button {
+        padding: 1px;
+        font-size: 15px;
+        margin-right: 5px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+      }
+      .active {
+        color: green;
+      }
+      .deactive {
+        color: red;
+      }
+      .dell {
+        color: red;
+        margin-left: 5px;
+      }
+    }
+  }
+}

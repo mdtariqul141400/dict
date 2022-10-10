@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  overflow-x: scroll;
+
+  table {
+    position: relative;
+    min-width: 100%;
+    border-collapse: collapse;
+    thead {
+      width: 100%;
+      position: relative;
+
+      background: rgb(255, 0, 0);
+      tr {
+        width: 100%;
+        th {
+          text-align: left;
+          padding: 5px;
+          font-size: 14px;
+          word-wrap: none;
+          white-space: nowrap;
+          word-break: keep-all;
+          .c {
+            text-align: center;
+          }
+        }
+      }
+    }
+    tbody {
+      position: relative;
+    }
+  }
+}
+.c {
+  text-align: center;
+}
