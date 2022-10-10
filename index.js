@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+const path = require('path')
 
 const mongoose = require('mongoose');
  
@@ -18,9 +19,7 @@ app.use(cors({
     origin : "*"
 }))
 
-    app.use(express.static("front-end/build"));
-
-    const path = require("path");
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
     
 
