@@ -49,6 +49,14 @@ app.use((err,req,res,next)=>{
         res.send("sucsses")
     }
 })
+const path = require("path")
+
+app.get("*",(req,res)=>{
+    // console.log(path.resolve(__dirname,"front-end","build","index.html");
+
+    res.sendFile(path.resolve(__dirname,"front-end","build","index.html"));
+
+});
 // init server 
 app.listen(PORT , () => {
     console.log(`server start on:`)
