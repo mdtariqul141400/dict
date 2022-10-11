@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "client": "cd front-end && npm install",
     "client-build": "cd front-end && npm run build",
     "heroku-postbuild": "npm run client && npm run client-build"
