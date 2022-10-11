@@ -28,7 +28,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_URL,{ useUnifiedTopology: true ,us
 });
 
 if(process.env.NODE_ENV === "production"){
-    app.use(express.static("front-end/"))
+    app.use(express.static("front-end/build"))
 }
 
 
