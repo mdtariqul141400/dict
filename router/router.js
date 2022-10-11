@@ -10,7 +10,9 @@ function rout(app){
             
     // set route 
     // set home route 
-      
+        app.get('/',(req,res)=>{
+            res.json({name:"nahid"});
+        });
 
         // login post req controller 
         app.post("/login", LoginCon().login)

@@ -1,10 +1,14 @@
 {
   "name": "respro",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon server.js",
+    "client": "cd front-end && npm install",
+    "client-build": "cd front-end && npm run build",
+    "heroku-postbuild": "npm run client && npm run client-build"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
