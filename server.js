@@ -26,6 +26,7 @@ mongoose.connect(process.env.MONGO_CONNECTION_URL,{ useUnifiedTopology: true ,us
 }).catch((err) => {
     console.log(err)
 });
+app.use(express.static("front-end/build"))
 
 if(process.env.NODE_ENV === "production"){
     app.use(express.static("front-end/build"))
@@ -49,14 +50,7 @@ app.use((err,req,res,next)=>{
         res.send("sucsses")
     }
 })
-const path = require("path")
 
-app.get("*",(req,res)=>{
-    // console.log(path.resolve(__dirname,"front-end","build","index.html");
-
-    res.sendFile(path.resolve(__dirname,"front-end","build","index.html"));
-
-});
 // init server 
 app.listen(PORT , () => {
     console.log(`server start on:`)

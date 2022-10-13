@@ -33,6 +33,7 @@ const LoginCon = ()=>{
             res.status(500)
         },
         changepassword: async(req,res)=>{
+            return res.send("this is demo you can't change password !!")
             try {
                 let {Pass,oldPass} = req.body;
                 const {me,go} = req.cookies;
